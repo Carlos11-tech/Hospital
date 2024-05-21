@@ -21,22 +21,27 @@ public class DIreccion {
 
     // Getters y setters
     public String getCalle() {
+
         return calle;
     }
 
     public void setCalle(String calle) {
+
         this.calle = calle;
     }
 
     public String getNumero() {
+
         return numero;
     }
 
     public void setNumero(String numero) {
+
         this.numero = numero;
     }
 
     public String getColonia() {
+
         return colonia;
     }
 
