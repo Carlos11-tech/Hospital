@@ -1,0 +1,44 @@
+public interface HistoriaMedica {
+    public void agregarDiagnostico(String diagnostico);
+    public void agregarTratamiento(String tratamiento);
+    public void agregarMedicamento(String medicamento);
+    public void agregarReceta(String receta);
+    public void agregarFecha(String fecha);
+    public void agregarHora(String hora);
+    public void agregarEspecialidad(Especialidad especialidad);
+    public void agregarEstadoPaciente(EstadoPaciente estadoPaciente);
+    public void agregarGenero(Genero genero);
+    public void agregarFarmacia(Farmacia farmacia);
+    public void agregarMedico(String medico);
+    public void agregarPaciente(String paciente);
+    public void agregarEdad(int edad);
+    public void agregarPeso(double peso);
+    public void agregarAltura(double altura);
+    public void agregarPresionArterial(double presionArterial);
+    public void agregarTemperatura(double temperatura);
+    public void agregarFrecuenciaCardiaca(double frecuenciaCardiaca);
+    public void agregarFrecuenciaRespiratoria(double frecuenciaRespiratoria);
+    public void agregarSaturacionOxigeno(double saturacionOxigeno);
+    public void agregarAlergias(String alergias);
+    public void agregarAntecedentes(String antecedentes);
+    public void agregarObservaciones(String observaciones);
+    public void agregarSintomas(String sintomas);
+    public void agregarMotivoConsulta(String motivoConsulta);
+    public void agregarHistoriaFamiliar(String historiaFamiliar);
+    public void agregarHistoriaPersonal(String historiaPersonal);
+    public void agregarHistoriaMedica(String historiaMedica);
+    public void agregarHistoriaQuirurgica(String historiaQuirurgica);
+    public void agregarHistoriaObstetrica(String historiaObstetrica);
+    public void agregarHistoriaToxicologica(String historiaToxicologica);
+    public void agregarHistoriaPsicologica(String historiaPsicologica);
+    public void agregarHistoriaSocial(String historiaSocial);
+    public void agregarHistoriaLaboral(String historiaLaboral);
+    public void agregarHistoriaMedicamentos(String historiaMedicamentos);
+    public void agregarHistoriaAlergias(String historiaAlergias);
+    public void agregarHistoriaInmunizaciones(String historiaInmunizaciones);
+    public void agregarHistoriaExamenFisico(String historiaExamenFisico);
+    public void agregarHistoriaEstudios(String historiaEstudios);
+    public void agregarHistoriaTratamientos(String historiaTratamientos);
+
+    public String mostrarHistorialMedico();
+}
